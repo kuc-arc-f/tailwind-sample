@@ -14,6 +14,11 @@
 tailwindcss , Layout sample
 
 ***
+### sample URL
+
+https://kuc-arc-f.github.io/tailwind-sample/
+
+***
 ### Blog :
 
 
