@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto px-8">
+    <h1 class="text-4xl font-bold text-center">Form2</h1>
+    <hr class="my-2"/>
+    <div class="w-full max-w-xs">
+      <!-- radio -->
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+          radio :
+        </label>
+        <label class="inline-flex items-center">
+          <input name="presentationScore" class="form-radio" type="radio" value="4" checked>
+          <span class="ml-2">radio_1</span>
+        </label>
+        <label class="inline-flex items-center">
+          <input name="presentationScore" class="form-radio" type="radio" value="3">
+          <span class="ml-2">radio_2</span>
+        </label>
+        <label class="inline-flex items-center">
+          <input name="presentationScore" class="form-radio" type="radio" value="2">
+          <span class="ml-2">radio_3</span>
+        </label>
+      </div>
+      <hr class="my-2"/>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+          CheckBox :
+        </label>       
+        <label class="inline-flex items-center">
+          <input type="checkbox" name="check_1" class="rounded-full mx-1 text-cyan-600 focus:outline-none" />
+          <span class="ml-2">check_1</span>
+        </label> 
+        <label class="inline-flex items-center">
+          <input type="checkbox" name="check_2" class="rounded-full mx-1 text-cyan-600 focus:outline-none" />
+          <span class="ml-2">check_2</span>
+        </label> 
+        <label class="inline-flex items-center">
+          <input type="checkbox" name="check_3" class="rounded-full mx-1 text-cyan-600 focus:outline-none" />
+          <span class="ml-2">check_3</span>
+        </label> 
+      </div>
+      <!-- date -->
+      <hr class="my-2"/>
+      <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="Date">
+            date :
+        </label>
+        <input
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          name="date" type="date" value="" required>
+      </div>
+
+    </div>    
+  </div>
+</body>
+</html>
