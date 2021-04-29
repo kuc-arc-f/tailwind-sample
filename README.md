@@ -19,8 +19,10 @@ tailwindcss , Layout sample
 https://kuc-arc-f.github.io/tailwind-sample/
 
 ***
-### Blog :
+### Related :
+* tailwindcss入門編
 
+https://zenn.dev/knaka0209/books/9e86ccb888758c
 
 ***
 
