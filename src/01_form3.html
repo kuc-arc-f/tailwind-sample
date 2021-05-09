@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
+<!-- gray-100 -->
 <body class="bg-gray-100">
   <div class="container mx-auto px-8">
     <h1 class="text-4xl font-bold text-center">Form3</h1>
@@ -14,7 +15,7 @@
         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
           Name
         </label>
-        <input class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+        <input class="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
          id="grid-last-name" type="text" placeholder="Name123">
       </div>
       <div class="flex flex-wrap -mx-3 mb-6">
@@ -22,7 +23,7 @@
           <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
             Password
           </label>
-          <input class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+          <input class="appearance-none block w-full bg-white text-gray-700 border border-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
            id="grid-password" type="password" placeholder="******">
           <p class="text-gray-600 text-xs italic">Make it as long and as crazy as you'd like</p>
         </div>
@@ -32,7 +33,7 @@
         <label class="block text-gray-700 text-sm font-bold mb-2">
           TextArea :
         </label>
-        <textarea class="mt-1 block w-full border rounded" 
+        <textarea class="mt-1 block w-full border border-gray-700 rounded" 
         rows="6"></textarea>
       </div>      
       <hr class="my-2"/>
@@ -40,7 +41,7 @@
         <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
           Select :
         </label>
-        <select class="block w-full mt-1 h-10">
+        <select class="block w-full mt-1 py-2 px-1 border border-gray-700 rounded-md">
           <option>Selct please</option>
           <option>Corporate event</option>
           <option>Wedding</option>
