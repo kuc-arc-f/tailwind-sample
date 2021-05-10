@@ -64,6 +64,9 @@ https://kuc-arc-f.github.io/tailwind-sample/src/01_card.html
 
 https://kuc-arc-f.github.io/tailwind-sample/src/01_card_2.html
 
+* alert
+
+https://kuc-arc-f.github.io/tailwind-sample/src/02/02_alert.html
 
 ***
 
