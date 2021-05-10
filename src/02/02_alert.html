@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<!-- bg-gray-100 -->
+<body class="bg-gray-white">
+  <div class="container mx-auto px-8 pb-20">
+    <h1 class="text-4xl font-bold text-center">alert</h1>
+    <hr class="my-2" />
+    Error:
+    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded" role="alert">
+      <strong class="font-bold">Holy smokes!</strong><br />
+      <span class="block sm:inline">Something seriously bad happened.</span>
+    </div>
+    <hr class="my-2" />
+    Warn:
+    <div class="bg-yellow-100 border border-yellow-500 text-yellow-700 p-4 rounded" role="alert">
+      <p class="font-bold">Be Warned</p>
+      <p>Something not ideal might be happening.</p>
+    </div>
+    <hr class="my-2" />
+    info:
+    <div class="bg-blue-100 border border-blue-500 text-blue-700 px-4 py-3 rounded" role="alert">
+      <p class="font-bold">Informational message</p>
+      <p class="text-sm">Some additional text to explain said message.</p>
+    </div>
+
+  </div>
+</body>
+</html>
